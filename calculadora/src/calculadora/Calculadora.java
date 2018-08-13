@@ -7,7 +7,7 @@ package calculadora;
 
 /**
  *
- * @author Mayra
+ * @author Mayra, Daniel, Bruno, Rodrigo, Diego
  */
 public class Calculadora implements ICalculadora {
 
@@ -16,9 +16,11 @@ public class Calculadora implements ICalculadora {
         return a+b;
     }
 
+    
+
     @Override
     public int multiplicar(int a, int b) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return a * b;
     }
 
 
